@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-dark text-light py-4 mt-5">
+    <footer id="contact" className="bg-dark text-light py-4 mt-5">
       <div className="container">
         <div className="row">
 
@@ -21,9 +21,9 @@ function Footer() {
           <div className="col-md-4 mb-3">
             <h5>Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-light text-decoration-none">Home</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Events</a></li>
-              <li><a href="#" className="text-light text-decoration-none">Contact</a></li>
+              <li><a href="#hero" className="text-light text-decoration-none">Home</a></li>
+              <li><a href="#events" className="text-light text-decoration-none">Events</a></li>
+              <li><a href="#contact" className="text-light text-decoration-none">Contact</a></li>
             </ul>
           </div>
 

@@ -11,7 +11,7 @@ function Events() {
   );
 
   return (
-    <div className="container my-5">
+    <div id="events" className="container my-5">
       <h2 className="text-center mb-4">Featured Events</h2>
 
       {/* Search Bar */}
