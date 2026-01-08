@@ -3,7 +3,7 @@ const events = [
     id: 1,
     name: "Tech Meetup 2026",
     date: "January 15, 2026",
-    time: "3:00 PM",
+    time: "03:00 PM",
     location: "Islamabad, Pakistan",
     description: "Join us for a tech meetup and networking session with local developers.",
   },
@@ -11,7 +11,7 @@ const events = [
     id: 2,
     name: "Startup Pitch Night",
     date: "January 20, 2026",
-    time: "6:00 PM",
+    time: "06:00 PM",
     location: "Lahore, Pakistan",
     description: "Pitch your startup ideas to investors and get valuable feedback."
   },
@@ -41,7 +41,6 @@ const events = [
   }
 ];
 
-// Add poster dynamically based on event name
 events.forEach(event => {
   event.poster = new URL(`../assets/${event.name}.jpg`, import.meta.url).href;
 });

@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   build-and-deploy:
-    # This environment block is the fix for your HttpError
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,7 +35,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Double check if your React build folder is 'dist' or 'build'
           path: './dist' 
 
       - name: Deploy to GitHub Pages

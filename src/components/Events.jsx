@@ -5,17 +5,14 @@ import eventsData from '../data/events';
 function Events() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Filter events based on search term
   const filteredEvents = eventsData.filter(event =>
     event.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
-    // Add id="events" so navbar link works
     <div id="events" className="container my-5">
       <h2 className="text-center mb-4">Featured Events</h2>
 
-      {/* Search Bar */}
       <div className="mb-4">
         <input
           type="text"
