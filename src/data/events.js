@@ -22,7 +22,24 @@ const events = [
     time: "11:00 AM",
     location: "Karachi, Pakistan",
     description: "Learn the fundamentals of graphic design from professional designers."
+  },
+  {
+    id: 4,
+    name: "Marketing Masterclass",
+    date: "February 26, 2026",
+    time: "01:00 PM",
+    location: "Islamabad, Pakistan",
+    description: "Learn modern marketing strategies to grow your brand effectively."
+  },
+  {
+    id: 5,
+    name: "Software Development Bootcamp",
+    date: "March 02, 2026",
+    time: "11:00 AM",
+    location: "Islamabad, Pakistan",
+    description: "Hands-on coding bootcamp covering HTML, CSS, JS, and React basics.",
   }
+
 ];
 
 export default events;
