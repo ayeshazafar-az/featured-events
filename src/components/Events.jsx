@@ -11,6 +11,7 @@ function Events() {
   );
 
   return (
+    // Add id="events" so navbar link works
     <div id="events" className="container my-5">
       <h2 className="text-center mb-4">Featured Events</h2>
 

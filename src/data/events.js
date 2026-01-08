@@ -5,7 +5,7 @@ const events = [
     date: "January 15, 2026",
     time: "3:00 PM",
     location: "Islamabad, Pakistan",
-    description: "Join us for a tech meetup and networking session with local developers."
+    description: "Join us for a tech meetup and networking session with local developers.",
   },
   {
     id: 2,
@@ -39,7 +39,11 @@ const events = [
     location: "Islamabad, Pakistan",
     description: "Hands-on coding bootcamp covering HTML, CSS, JS, and React basics.",
   }
-
 ];
+
+// Add poster dynamically based on event name
+events.forEach(event => {
+  event.poster = new URL(`../assets/${event.name}.jpg`, import.meta.url).href;
+});
 
 export default events;
