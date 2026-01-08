@@ -27,10 +27,10 @@ A responsive single-page website built with **React**, **Bootstrap**, and **Vite
 1. **Check Node.js and npm**
    Make sure Node.js and npm are installed:
 
-   node -v
-   npm -v
+    * node -v   
+    * npm -v
 
-   If not installed, download from [https://nodejs.org](https://nodejs.org).
+   * If not installed, download from [https://nodejs.org](https://nodejs.org).
 
 2. **Create a new React + Vite project**
 
